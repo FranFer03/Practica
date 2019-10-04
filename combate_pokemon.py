@@ -16,12 +16,12 @@ elif pokemon_choose == "Bulbasaur":
 
 print("Elegiste de oponente a {}".format(pokemon_choose))
 
-while enemy_life >= 0 and pikachu_life >= 0:
+while enemy_life >= 0 and pikachu_life >= 0 :
     attack_choose_pikachu = input("Cual ataque vas a elegir? Impactrueno / Bola Voltio :  ")
 
-    if attack_choose_pikachu == "Impactrueno"
+    if attack_choose_pikachu == "Impactrueno":
         enemy_life -= 10
-    elif attack_choose_pikachu == "Bola Voltio"
+    elif attack_choose_pikachu == "Bola Voltio":
         enemy_life -= 12
 
     print("La vida de {} es de {}".format(pokemon_choose, enemy_life))
@@ -32,8 +32,8 @@ while enemy_life >= 0 and pikachu_life >= 0:
 
 print("El cambate a finalizado")
 
-if enemy_life <= 0
+if enemy_life <= 0 :
     print("Ganaste")
-if pikachu_life <= 0
+if pikachu_life <= 0 :
     print("Perdiste")
 
