@@ -1,10 +1,10 @@
-pokemon_choose = input("Elije tu oponente : Squitle / Charmander / Bulbasaour  : ")
+pokemon_choose = input("Elije tu oponente : Squirtle / Charmander / Bulbasaour  : ").title()
 
 pikachu_life = 100
 enemy_life = 0
 enemy_damage = 0
 
-if pokemon_choose == "Squitle":
+if pokemon_choose == "Squirtle":
     enemy_life = 90
     enemy_damage = 8
 elif pokemon_choose == "Charmander":
